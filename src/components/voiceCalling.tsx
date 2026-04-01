@@ -23,7 +23,7 @@ export const AgoraVoiceCalling = () => {
 const Basics = () => {
   const [calling, setCalling] = useState(false);
   const isConnected = useIsConnected(); // Store the user's connection status
-  const [appId, setAppId] = useState("08378a221c0d4f61a2e8458b07111215");
+  const [appId, setAppId] = useState("<-- Insert App ID -->");
   const [channel, setChannel] = useState("<-- Insert Channel Name -->");
   const [token, setToken] = useState("<-- Insert Token -->");
   const [micOn, setMic] = useState(true);
